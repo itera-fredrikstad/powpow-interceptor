@@ -1,3 +1,5 @@
+[![Publish to Chrome Web Store](https://github.com/meidellkraft/powpow-interceptor/actions/workflows/publish-chrome.yml/badge.svg?branch=main)](https://github.com/meidellkraft/powpow-interceptor/actions/workflows/publish-chrome.yml)
+
 # PowPow Interceptor
 
 [PowPow CLI](https://github.com/meidellkraft/powpow-cli) companion browser extension.

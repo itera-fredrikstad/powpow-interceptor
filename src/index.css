@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "@fontsource/barlow";
+
+@theme {
+	--font-barlow: "Barlow", sans-serif;
+}
+
+body {
+	@apply w-120 h-max max-h-60 font-barlow bg-zinc-900 text-white;
+}

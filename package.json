@@ -1,0 +1,37 @@
+{
+	"name": "@pstevju/powpow-interceptor",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite build --watch",
+		"build": "tsc -b && biome lint src/** && vite build",
+		"build:dev": "tsc -b && vite build --mode development",
+		"check:lint": "biome lint src/**",
+		"check": "biome check src/**",
+		"check:format": "biome format src/**",
+		"fix:lint": "biome lint --write src/**",
+		"fix": "biome check --write src/**",
+		"fix:format": "biome format --write src/**",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@fontsource/barlow": "^5.2.8",
+		"@tailwindcss/vite": "^4.2.2",
+		"react": "^19.2.4",
+		"react-dom": "^19.2.4",
+		"tailwindcss": "^4.2.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.8",
+		"@eslint/js": "^9.39.4",
+		"@types/chrome": "^0.1.38",
+		"@types/node": "^24.12.0",
+		"@types/react": "^19.2.14",
+		"@types/react-dom": "^19.2.3",
+		"@vitejs/plugin-react": "^6.0.1",
+		"globals": "^17.4.0",
+		"typescript": "~5.9.3",
+		"vite": "^8.0.1"
+	}
+}

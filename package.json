@@ -1,8 +1,9 @@
 {
-	"name": "@pstevju/powpow-interceptor",
+	"name": "powpow-interceptor",
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
+	"license": "ISC",
 	"scripts": {
 		"dev": "vite build --watch",
 		"build": "tsc -b && biome lint src/** && vite build",

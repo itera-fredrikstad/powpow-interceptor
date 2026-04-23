@@ -1,12 +1,12 @@
-[![Publish to Chrome Web Store](https://github.com/meidellkraft/powpow-interceptor/actions/workflows/publish-chrome.yml/badge.svg?branch=main)](https://github.com/meidellkraft/powpow-interceptor/actions/workflows/publish-chrome.yml)
+[![Publish to Chrome Web Store](https://github.com/itera-fredrikstad/powpow-interceptor/actions/workflows/publish-chrome.yml/badge.svg?branch=main)](https://github.com/itera-fredrikstad/powpow-interceptor/actions/workflows/publish-chrome.yml)
 
 # PowPow Interceptor
 
-[PowPow CLI](https://github.com/meidellkraft/powpow-cli) companion browser extension.
+[PowPow CLI](https://github.com/itera-fredrikstad/powpow-cli) companion browser extension.
 
 ## Overview
 
-PowPow Interceptor uses the Chrome DevTools Protocol (`chrome.debugger`) to intercept network requests on a target Power Pages portal and replace **web files** (JS, CSS) and **web template** `<script>` blocks with content served from the [PowPow CLI](https://github.com/meidellkraft/powpow-cli) dev server. This enables a fast local edit → browser refresh development loop without uploading changes to the portal.
+PowPow Interceptor uses the Chrome DevTools Protocol (`chrome.debugger`) to intercept network requests on a target Power Pages portal and replace **web files** (JS, CSS) and **web template** `<script>` blocks with content served from the [PowPow CLI](https://github.com/itera-fredrikstad/powpow-cli) dev server. This enables a fast local edit → browser refresh development loop without uploading changes to the portal.
 
 ## Features
 
@@ -36,7 +36,7 @@ PowPow Interceptor uses the Chrome DevTools Protocol (`chrome.debugger`) to inte
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/meidellkraft/powpow-interceptor.git
+   git clone https://github.com/itera-fredrikstad/powpow-interceptor.git
    cd powpow-interceptor
    ```
 
@@ -127,7 +127,7 @@ A [GitHub Actions workflow](.github/workflows/publish-chrome.yml) automatically 
 
 ## Related
 
-- [PowPow CLI](https://github.com/meidellkraft/powpow-cli)
+- [PowPow CLI](https://github.com/itera-fredrikstad/powpow-cli)
 
 ## License
 

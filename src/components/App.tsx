@@ -18,7 +18,7 @@ export function App() {
 
 			<footer className="p-3 bg-linear-to-bl/oklch from-amber-800/50 to-zinc-800 border-t border-zinc-700 flex items-center gap-2">
 				<StatusIndicator />
-				<a href="https://github.com/meidellkraft/powpow-interceptor" target="_blank" rel="noopener noreferrer" className="ms-auto text-lg">
+				<a href="https://github.com/itera-fredrikstad/powpow-interceptor" target="_blank" rel="noopener noreferrer" className="ms-auto text-lg">
 					<LogoGitHub />
 				</a>
 			</footer>
